@@ -17,4 +17,20 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="button" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_margin">20dp</item>
+    </style>
+    <style name="menu" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FF101010</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="navigator" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#FFFF4081</item>
+    </style>
+
 </resources>
