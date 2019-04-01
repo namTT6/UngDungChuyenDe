@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="backgroudcolor" format="reference" />
+    <attr name="styleToolbar" format="reference" />
+    <attr name="appbarTheme" format="reference" />
+</resources>
