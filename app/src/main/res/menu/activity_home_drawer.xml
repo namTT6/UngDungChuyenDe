@@ -38,6 +38,10 @@
             android:id="@+id/nav_tapluyen"
             android:icon="@drawable/ic_tapluyen"
             android:title="Tập luyện" />
+        <item
+            android:id="@+id/nav_dangnhap"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Đăng nhập" />
     </group>
 
 </menu>
