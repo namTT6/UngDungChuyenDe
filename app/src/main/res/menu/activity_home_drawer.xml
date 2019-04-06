@@ -52,6 +52,10 @@
             android:id="@+id/nav_thongtinungdung"
             android:icon="@drawable/ic_title"
             android:title="Thông tin ứng dụng" />
+        <item
+            android:id="@+id/nav_dangnhap"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Đăng nhập" />
     </group>
 
 </menu>
