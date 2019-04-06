@@ -38,6 +38,20 @@
             android:id="@+id/nav_tapluyen"
             android:icon="@drawable/ic_tapluyen"
             android:title="Tập luyện" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_google_maps"
+            android:title="Định vị" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_iconlogin"
+            android:title="Login" />
+        <item
+            android:title="--------------------------------" />
+        <item
+            android:id="@+id/nav_thongtinungdung"
+            android:icon="@drawable/ic_title"
+            android:title="Thông tin ứng dụng" />
     </group>
 
 </menu>

@@ -21,16 +21,50 @@
         <!-- Customize your theme here. -->
         <item name="android:layout_margin">20dp</item>
     </style>
+
     <style name="menu" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="android:gravity">center</item>
         <item name="android:textColor">#FF101010</item>
         <item name="android:layout_gravity">center</item>
     </style>
+
     <style name="navigator" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="android:textSize">15dp</item>
         <item name="android:textColor">#FFFF4081</item>
     </style>
+
+
+    <!-- Style dark theme -->
+    <style name="page_background_dark">  <!-- Page background -->
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <style name="app_bar_background_dark">  <!-- Page background -->
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <style name="tool_bar_dark">
+        <item name="android:theme">@style/Theme.Design.Light</item>
+    </style>
+
+    <style name="appbar_style_dark">
+        <item name="android:theme">@style/Theme.Design.Light</item>
+    </style>
+
+
+    <!-- Style light theme -->
+    <style name="page_background_light">  <!-- Page background -->
+        <item name="android:background">#f5f3dd</item>
+    </style>
+
+    <style name="tool_bar_light">
+        <item name="android:theme">@style/AppTheme.AppBarOverlay</item>
+    </style>
+    <style name="appbar_style_light">
+        <item name="android:theme">@style/AppTheme.AppBarOverlay</item>
+    </style>
+
 
 </resources>
